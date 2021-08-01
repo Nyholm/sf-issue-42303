@@ -1,0 +1,15 @@
+{
+    "name": "tobias/sf-issue-42303",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nyholm",
+            "email": "tobias.nyholm@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/messenger": "5.3.4",
+        "symfony/error-handler": "5.3.4"
+    }
+}
