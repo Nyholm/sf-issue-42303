@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "symfony/messenger": "5.3.4",
-        "symfony/error-handler": "5.3.4"
+        "symfony/symfony": "5.3.4"
     }
 }
