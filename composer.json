@@ -9,6 +9,6 @@
         }
     ],
     "require": {
-        "symfony/symfony": "5.3.4"
+        "symfony/symfony": "5.3.x-dev"
     }
 }

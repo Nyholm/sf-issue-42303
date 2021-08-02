@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6179c88372b67365232ee6970d966ad4",
+    "content-hash": "b6c6802170e4377228f8193497082609",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1943,16 +1943,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v5.3.4",
+            "version": "5.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "b2b847b41e21e5ec826a14a92b51a0ab01112f2f"
+                "reference": "59ed190699fb9cd348191064e5e926b7e540c4f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/b2b847b41e21e5ec826a14a92b51a0ab01112f2f",
-                "reference": "b2b847b41e21e5ec826a14a92b51a0ab01112f2f",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/59ed190699fb9cd348191064e5e926b7e540c4f5",
+                "reference": "59ed190699fb9cd348191064e5e926b7e540c4f5",
                 "shasum": ""
             },
             "require": {
@@ -2143,7 +2143,7 @@
             ],
             "support": {
                 "issues": "https://github.com/symfony/symfony/issues",
-                "source": "https://github.com/symfony/symfony/tree/v5.3.4"
+                "source": "https://github.com/symfony/symfony/tree/5.3"
             },
             "funding": [
                 {
@@ -2159,7 +2159,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-26T17:37:04+00:00"
+            "time": "2021-08-01T18:08:55+00:00"
         },
         {
             "name": "twig/twig",
@@ -2241,7 +2241,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "symfony/symfony": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
